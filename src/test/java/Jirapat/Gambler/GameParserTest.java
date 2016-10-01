@@ -1,6 +1,7 @@
-package Jirapat.Gambler.Poker;
+package Jirapat.Gambler;
 
-import Jirapat.Gambler.GameParser;
+import Jirapat.Gambler.Poker.Game;
+import Jirapat.Gambler.Poker.PokerPlayer;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;

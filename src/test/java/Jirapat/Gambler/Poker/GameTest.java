@@ -6,6 +6,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.util.Assert;
 
+import java.util.List;
+
 @RunWith(SpringRunner.class)
 @SpringBootTest
 /**
@@ -79,5 +81,16 @@ public class GameTest {
         Game game = new Game(player1, player2);
         WinnerPokerPlayer winner = game.findWinner();
         Assert.isNull(winner);
+    }
+
+    @Test
+    public void itShouldReturnCorrectPlayerInGame() {
+        PokerPlayer player1 = new PokerPlayer("p1");
+        PokerPlayer player2 = new PokerPlayer("p2");
+        Game game = new Game(player1, player2);
+        List<PokerPlayer> actualPlayers = game.getPlayers();
+        Assert.isTrue(actualPlayers.size() == 2);
+        Assert.isTrue(actualPlayers.get(0) == player1);
+        Assert.isTrue(actualPlayers.get(1) == player2);
     }
 }
