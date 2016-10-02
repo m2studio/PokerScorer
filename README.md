@@ -1,5 +1,5 @@
 # PokerScorer
-A project to count Poker scores from text file as Poker cards, then determines the winner in each Poker games.
+*A project to count Poker scores* from text file as Poker cards, then determines the winner in each Poker games.
 To solve the problem below
 
 Mr. Ku Chun is the world famous gambler. He would like us to help create intelligence application on the Apple watch to tell him if they can win the poker game by comparison between his ranks to another player.
@@ -38,10 +38,8 @@ KH = K Black heart (cards)
 AC = A Black club (cards)
 
 ## Shuffle cards online tool
-If you just would like to random your input, you can use this tool to shuffle cards
-```
-Shuffle cards : http://bit.ly/2dyoKKR
-```
+If you just would like to random your input, you can use this tool to shuffle cards --
+http://bit.ly/2dyoKKR
 
 
 
