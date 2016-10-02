@@ -36,6 +36,7 @@ KH = K Black heart (cards)
 9S = 9 Black spade (cards)     
 2D = 2 Black diamond (cards)     
 AC = A Black club (cards)
+If you just would like to random your input, you can use this tool to shuffle cards : https://www.random.org/playing-cards/?cards=5&decks=1&spades=on&hearts=on&diamonds=on&clubs=on&aces=on&twos=on&threes=on&fours=on&fives=on&sixes=on&sevens=on&eights=on&nines=on&tens=on&jacks=on&queens=on&kings=on&remaining=on
 
 
 
