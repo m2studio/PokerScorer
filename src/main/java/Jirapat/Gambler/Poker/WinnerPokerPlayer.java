@@ -1,7 +1,8 @@
 package Jirapat.Gambler.Poker;
 
 /**
- * Created by Windows 10 Pro on 1/10/2559.
+ This class is a winner Poker player container, to represent the winner and the card
+ that make the winner win in case of getting the same rank
  */
 public class WinnerPokerPlayer {
 

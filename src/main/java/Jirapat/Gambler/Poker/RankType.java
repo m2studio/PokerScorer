@@ -1,7 +1,7 @@
 package Jirapat.Gambler.Poker;
 
 /**
- * Created by Windows 10 Pro on 1/10/2559.
+ Represents POKER HAND RANKING based on http://www.pokerlistings.com/poker-rules
  */
 public enum RankType {
     RoyalStraightFlush(10),
