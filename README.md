@@ -3,6 +3,7 @@
 To solve the problem below
 
 Mr. Ku Chun is the world famous gambler. He would like us to help create intelligence application on the Apple watch to tell him if they can win the poker game by comparison between his ranks to another player.
+
 Poker rule: you can follow the Poker rule here: http://www.pokerlistings.com/poker-rules
 
 ## How to run the program
