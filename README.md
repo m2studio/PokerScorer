@@ -38,7 +38,8 @@ KH = K Black heart (cards)
 AC = A Black club (cards)
 
 ## Shuffle cards online tool
-If you just would like to random your input, you can use this tool to shuffle cards --
+If you just would like to random your input, you can use this tool to shuffle cards
+
 http://bit.ly/2dyoKKR
 
 
