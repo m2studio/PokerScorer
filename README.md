@@ -30,7 +30,13 @@ Tie.
 3. Select "build.gradle" file in the project directory
 4. Now you should be able to build or run the project
 
-
+## About input file
+Input file location is here /src/main/resources/input_file.txt
+Note :     
+KH = K Black heart (cards)     
+9S = 9 Black spade (cards)     
+2D = 2 Black diamond (cards)     
+AC = A Black club (cards)
 
 
 
