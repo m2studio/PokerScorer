@@ -1,8 +1,13 @@
 package Jirapat.Gambler;
 
 /**
- * Created by Windows 10 Pro on 2/10/2559.
+ This is an output interface to display any text
  */
 public interface IPrinter {
+
+    /**
+     * Prints a given text to specified screen
+     * @param text A given text
+     */
     void print(String text);
 }

@@ -11,6 +11,10 @@ public class GamePrinter implements IGamePrinter {
 
     private final IPrinter printer;
 
+    /**
+     * Instantiates GamePrinter object
+     * @param printer Printer
+     */
     public GamePrinter(IPrinter printer) {
         this.printer = printer;
     }

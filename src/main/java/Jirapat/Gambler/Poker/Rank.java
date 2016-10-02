@@ -178,6 +178,11 @@ public class Rank implements Comparable<Rank> {
             }
         } else if (this.rankType == RankType.Triple) {
             kickers.add(this.tripleCardValue);
+            for(Integer i=0; i<this.holdCards.size(); i++) {
+                if (holdCards.get(i).getValue() != this.tripleCardValue) {
+                    kickers.add(holdCards.get(i).getValue());
+                }
+            }
         } else if (this.rankType == RankType.TwoPairs) {
             if (pairCardValue > secondPairCardvalue) {
                 kickers.add(pairCardValue);
@@ -200,7 +205,6 @@ public class Rank implements Comparable<Rank> {
                     break;
                 }
             }
-
         } else {
             // high card, checks the first two highest values
             kickers.add(holdCards.get(0).getValue());
