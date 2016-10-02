@@ -16,9 +16,10 @@ public class PokerApplication {
 
 		FileReader fileReader = new FileReader(RESOURCE_PATH);
 		BufferedReader reader = new BufferedReader(fileReader);
-		IGameParser parser = new GameParser(reader);
-		IGamePrinter printer = new GamePrinter();
-		GameManager gameManager = new GameManager(parser, printer);
+		IGameParser gameParser = new GameParser(reader);
+		IPrinter printer = new Printer();
+		IGamePrinter gamePrinter = new GamePrinter(printer);
+		GameManager gameManager = new GameManager(gameParser, gamePrinter);
 		gameManager.process();
 	}
 }

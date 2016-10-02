@@ -31,8 +31,7 @@ Tie.
 4. Now you should be able to build or run the project
 
 ## About input file
-Input file location is here /src/main/resources/input_file.txt
-Note :     
+Input file location is here /src/main/resources/input_file.txt   
 KH = K Black heart (cards)     
 9S = 9 Black spade (cards)     
 2D = 2 Black diamond (cards)     

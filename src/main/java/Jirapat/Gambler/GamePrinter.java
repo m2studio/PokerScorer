@@ -9,6 +9,12 @@ import Jirapat.Gambler.Poker.WinnerPokerPlayer;
  */
 public class GamePrinter implements IGamePrinter {
 
+    private final IPrinter printer;
+
+    public GamePrinter(IPrinter printer) {
+        this.printer = printer;
+    }
+
     /**
      * Prints winner score to screen.
      * @param winner A given winner Poker player
@@ -26,7 +32,7 @@ public class GamePrinter implements IGamePrinter {
             text = String.format("%s wins. - with %s", player.getName(), player.getRank().getRankType().toString());
         }
 
-        System.out.println(text);
+        this.printer.print(text);
     }
 
     /**
@@ -34,6 +40,6 @@ public class GamePrinter implements IGamePrinter {
      */
     @Override
     public void PrintTie() {
-        System.out.println("Tie.");
+        this.printer.print("Tie.");
     }
 }
